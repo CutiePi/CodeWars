@@ -1,2 +1,2 @@
 # CodeWars
-My completed katas
+My completed katas and other python stuff
