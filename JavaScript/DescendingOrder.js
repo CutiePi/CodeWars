@@ -5,3 +5,8 @@ function descendingOrder(n) {
         return Number(n.toString().split('').sort().reverse().join(''));
     }
 }
+
+// This is safer it manages Null and parameters with no length attribute
+function descendingOrder(n){
+    return parseInt(String(n).split('').sort().reverse().join(''))
+  }
