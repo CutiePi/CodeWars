@@ -1,4 +1,3 @@
 function array_diff(a, b) {
-  let diff  = a.filter(x => !b.includes(x));
-  return diff;
+  return a.filter(x => !b.includes(x));
 }
