@@ -10,6 +10,7 @@ func main() {
 
 }
 
+// https://leetcode.com/problems/sum-of-two-integers/description/
 func add(x int, y int) int {
 	var keep = (x & y) << 1
 	var res = x ^ y
